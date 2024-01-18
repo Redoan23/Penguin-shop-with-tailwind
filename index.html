@@ -5,18 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .mon {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
 </head>
 
-<body>
-    <header>
-        <nav>
+<body class="mx-auto my-0 max-w-screen-2xl ">
+    <header class="bg-lime-50 px-32">
+        <nav class="flex items-center justify-between">
             <div class="flex items-center gap-4">
                 <div><img src="./penguin-fashion-resources/icons/Frame.svg" alt=""></div>
-                <div><span class="text-lime-600">Penguin</span>Fashion</div>
+                <div class="mon text-2xl"><span class="text-lime-600">Penguin</span> Fashion</div>
             </div>
             <div>
-                <ul>
+                <ul class="flex gap-3 roboto">
                     <li><a href="">Home</a></li>
                     <li><a href="">Product</a></li>
                     <li><a href="">About Us</a></li>
@@ -24,9 +46,171 @@
                 </ul>
             </div>
         </nav>
+        <div class="flex items-center gap-40">
+            <div class="py-32">
+                <h1 class="uppercase bebas text-7xl"><span class="text-yellow-300">Be the penguins</span><br> of winter
+                </h1>
+                <p class="roboto m-1">Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
+                <button
+                    class="uppercase bg-lime bg-gradient-to-r from-lime-600 to-lime-700 rounded-md w40 h14 py-4 px-7 text-white mt-3">buy
+                    now</button>
+            </div>
+            <div class="pb-16">
+                <img src="./penguin-fashion-resources/images/model.png" alt="">
+            </div>
+        </div>
     </header>
     <main>
-
+        <section class="mt-16">
+            <h3 class="font-medium text-slate-700 text-5xl mt-12 uppercase bebas"> Women jacket</h3>
+            <div class="grid grid-cols-3 mt-8">
+                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md ">
+                    <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
+                            src="./penguin-fashion-resources/images/jacket-1.png" alt=""></div>
+                    <h3 class="roboto text-slate-900 text-2xl font-black">Yellow Coat Jacket </h3>
+                    <p class="roboto text-slate-700 py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-16 items-center">
+                        <p class="roboto text-4xl text-yellow-300 font-black">$234</p>
+                        <button
+                            class=" bg-gradient-to-r from-lime-600 to-lime-700 rounded-md w40 h14 py-4 px-7 text-white mt-3 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="blue" viewBox="0 0 24 24" stroke-width="1.2"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            BUY NOW</button>
+                    </div>
+                </div>
+                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md">
+                    <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
+                            src="./penguin-fashion-resources/images/jacket-2.png" alt=""></div>
+                    <h3 class="roboto text-slate-900 text-2xl font-black">Yellow Coat Jacket </h3>
+                    <p class="roboto text-slate-700 py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-16 items-center">
+                        <p class="roboto text-4xl text-yellow-300 font-black">$234</p>
+                        <button
+                            class=" bg-gradient-to-r from-lime-600 to-lime-700 rounded-md w40 h14 py-4 px-7 text-white mt-3 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="blue" viewBox="0 0 24 24" stroke-width="1.2"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            BUY NOW</button>
+                    </div>
+                </div>
+                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md ">
+                    <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
+                            src="./penguin-fashion-resources/images/jacket-3.png" alt=""></div>
+                    <h3 class="roboto text-slate-900 text-2xl font-black">Yellow Coat Jacket </h3>
+                    <p class="roboto text-slate-700 py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-16 items-center">
+                        <p class="roboto text-4xl text-yellow-300 font-black">$234</p>
+                        <button
+                            class=" bg-gradient-to-r from-lime-600 to-lime-700 rounded-md w40 h14 py-4 px-7 text-white mt-3 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="blue" viewBox="0 0 24 24" stroke-width="1.2"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-14">
+            <h3 class="font-medium text-slate-700 text-5xl mt-12 uppercase bebas">Men jacket</h3>
+            <div class="grid grid-cols-3 mt-8">
+                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md ">
+                    <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
+                            src="./penguin-fashion-resources/images/jacket-4.png" alt=""></div>
+                    <h3 class="roboto text-slate-900 text-2xl font-black">Yellow Coat Jacket </h3>
+                    <p class="roboto text-slate-700 py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-16 items-center">
+                        <p class="roboto text-4xl text-yellow-300 font-black">$234</p>
+                        <button
+                            class=" bg-gradient-to-r from-lime-600 to-lime-700 rounded-md w40 h14 py-4 px-7 text-white mt-3 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="blue" viewBox="0 0 24 24" stroke-width="1.2"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            BUY NOW</button>
+                    </div>
+                </div>
+                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md ">
+                    <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
+                            src="./penguin-fashion-resources/images/jacket-5.png" alt=""></div>
+                    <h3 class="roboto text-slate-900 text-2xl font-black">Yellow Coat Jacket </h3>
+                    <p class="roboto text-slate-700 py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-16 items-center">
+                        <p class="roboto text-4xl text-yellow-300 font-black">$234</p>
+                        <button
+                            class=" bg-gradient-to-r from-lime-600 to-lime-700 rounded-md w40 h14 py-4 px-7 text-white mt-3 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="blue" viewBox="0 0 24 24" stroke-width="1.2"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            BUY NOW</button>
+                    </div>
+                </div>
+                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md ">
+                    <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
+                            src="./penguin-fashion-resources/images/jacket-6.png" alt=""></div>
+                    <h3 class="roboto text-slate-900 text-2xl font-black">Yellow Coat Jacket </h3>
+                    <p class="roboto text-slate-700 py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-16 items-center">
+                        <p class="roboto text-4xl text-yellow-300 font-black">$234</p>
+                        <button
+                            class=" bg-gradient-to-r from-lime-600 to-lime-700 rounded-md w40 h14 py-4 px-7 text-white mt-3 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="blue" viewBox="0 0 24 24" stroke-width="1.2"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex  items-center justify-between mt-40">
+            <div class="space-y-5">
+                <div class="flex gap-9 items-center">
+                    <div class="w-20"><img class="w-full" src="./penguin-fashion-resources/icons/house.png" alt=""></div>
+                    <div class="space-y-2">
+                        <h3 class="text-[#363958] text-3xl font-bold">Find the Perfect Fit</h3>
+                        <p class="text-[#363958] text-base">Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="flex gap-9 items-center">
+                    <div class="w-20"><img class="w-full" src="./penguin-fashion-resources/icons/house.png" alt=""></div>
+                    <div class="space-y-2">
+                        <h3 class="text-[#363958] text-3xl font-bold">Free Exchanges</h3>
+                        <p class="text-[#363958] text-base">One of the many reasons you can shop
+                            with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="flex gap-9 items-center">
+                    <div class="w-20"><img class="w-full" src="./penguin-fashion-resources/icons/house.png" alt=""></div>
+                    <div class="space-y-2">
+                        <h3 class="text-[#363958] text-3xl font-bold ">Contact Our Seller</h3>
+                        <p class="text-[#363958] text-base">They are here to help you. That's quite 
+                            literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/2">
+                <div><img class="w-full" src="./penguin-fashion-resources/images/shopping.png" alt=""></div>
+            </div>
+        </section>
     </main>
     <footer>
 
