@@ -30,15 +30,15 @@
     </style>
 </head>
 
-<body class="mx-auto my-0 max-w-screen-2xl ">
-    <header class="bg-lime-50 px-32">
-        <nav class="flex items-center justify-between">
-            <div class="flex items-center gap-4">
+<body class="mx-auto">
+    <header class="bg-lime-50 px-32 ">
+        <nav class="lg:flex lg:flex-row flex-col items-center justify-between pt-8 mx-auto lg:mx-auto max-w-screen-xl">
+            <div class="lg:flex items-center gap-4">
                 <div><img src="./penguin-fashion-resources/icons/Frame.svg" alt=""></div>
                 <div class="mon text-2xl"><span class="text-lime-600">Penguin</span> Fashion</div>
             </div>
             <div>
-                <ul class="flex gap-3 roboto">
+                <ul class="lg:flex lg:flex-row flex-col gap-3 roboto">
                     <li><a href="">Home</a></li>
                     <li><a href="">Product</a></li>
                     <li><a href="">About Us</a></li>
@@ -46,7 +46,7 @@
                 </ul>
             </div>
         </nav>
-        <div class="flex items-center gap-40">
+        <div class="lg:flex lg:flex-row flex-col items-center gap-40 lg:mx-auto  mx-auto my-20 max-w-screen-xl">
             <div class="py-32">
                 <h1 class="uppercase bebas text-7xl"><span class="text-yellow-300">Be the penguins</span><br> of winter
                 </h1>
@@ -57,14 +57,14 @@
                     now</button>
             </div>
             <div class="pb-16">
-                <img src="./penguin-fashion-resources/images/model.png" alt="">
+                <img src="/penguin-fashion-resources/images/model.png" alt="">
             </div>
         </div>
     </header>
-    <main>
-        <section class="mt-16">
+    <main class="my-0 mx-auto max-w-screen-xl">
+        <section class="mt-16 mx-auto">
             <h3 class="font-medium text-slate-700 text-5xl mt-12 uppercase bebas"> Women jacket</h3>
-            <div class="grid grid-cols-3 mt-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 mt-8">
                 <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md ">
                     <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
                             src="./penguin-fashion-resources/images/jacket-1.png" alt=""></div>
@@ -83,7 +83,7 @@
                             BUY NOW</button>
                     </div>
                 </div>
-                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md">
+                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md mx-auto">
                     <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
                             src="./penguin-fashion-resources/images/jacket-2.png" alt=""></div>
                     <h3 class="roboto text-slate-900 text-2xl font-black">Yellow Coat Jacket </h3>
@@ -101,7 +101,7 @@
                             BUY NOW</button>
                     </div>
                 </div>
-                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md ">
+                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md mx-auto">
                     <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
                             src="./penguin-fashion-resources/images/jacket-3.png" alt=""></div>
                     <h3 class="roboto text-slate-900 text-2xl font-black">Yellow Coat Jacket </h3>
@@ -121,9 +121,9 @@
                 </div>
             </div>
         </section>
-        <section class="mt-14">
+        <section class="mt-14 lg:mx-auto mx-auto max-w-screen-xl ">
             <h3 class="font-medium text-slate-700 text-5xl mt-12 uppercase bebas">Men jacket</h3>
-            <div class="grid grid-cols-3 mt-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 mt-8 lg:mx-auto mx-auto">
                 <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md ">
                     <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
                             src="./penguin-fashion-resources/images/jacket-4.png" alt=""></div>
@@ -160,7 +160,7 @@
                             BUY NOW</button>
                     </div>
                 </div>
-                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md ">
+                <div class="w-96 p-7 rounded-2xl drop-shadow-md shadow-md">
                     <div class="bg-gray-200 rounded-2xl p-4 m-auto my-4 mt-0"><img class="w-full"
                             src="./penguin-fashion-resources/images/jacket-6.png" alt=""></div>
                     <h3 class="roboto text-slate-900 text-2xl font-black">Yellow Coat Jacket </h3>
@@ -180,40 +180,48 @@
                 </div>
             </div>
         </section>
-        <section class="flex  items-center justify-between mt-40">
-            <div class="space-y-5">
-                <div class="flex gap-9 items-center">
-                    <div class="w-20"><img class="w-full" src="./penguin-fashion-resources/icons/house.png" alt=""></div>
+        <section class="lg:flex lg:flex-row flex-col items-center justify-between mt-40">
+            <div class="lg:space-y-5 space-y-12">
+                <div class="flex gap-9 items-center shadow-lg rounded-lg">
+                    <div class="w-20"><img class="w-full" src="./penguin-fashion-resources/icons/house.png" alt="">
+                    </div>
                     <div class="space-y-2">
                         <h3 class="text-[#363958] text-3xl font-bold">Find the Perfect Fit</h3>
                         <p class="text-[#363958] text-base">Everybody is different, which is why we
                             offer styles for every body.</p>
                     </div>
                 </div>
-                <div class="flex gap-9 items-center">
-                    <div class="w-20"><img class="w-full" src="./penguin-fashion-resources/icons/house.png" alt=""></div>
+                <div class="flex gap-9 items-center shadow-lg rounded-lg">
+                    <div class="w-20"><img class="w-full" src="./penguin-fashion-resources/icons/house.png" alt="">
+                    </div>
                     <div class="space-y-2">
                         <h3 class="text-[#363958] text-3xl font-bold">Free Exchanges</h3>
                         <p class="text-[#363958] text-base">One of the many reasons you can shop
                             with peace of mind.</p>
                     </div>
                 </div>
-                <div class="flex gap-9 items-center">
-                    <div class="w-20"><img class="w-full" src="./penguin-fashion-resources/icons/house.png" alt=""></div>
+                <div class="flex gap-9 items-center shadow-lg rounded-lg drop-shadow-sm">
+                    <div class="w-20"><img class="w-full" src="./penguin-fashion-resources/icons/house.png" alt="">
+                    </div>
                     <div class="space-y-2">
                         <h3 class="text-[#363958] text-3xl font-bold ">Contact Our Seller</h3>
-                        <p class="text-[#363958] text-base">They are here to help you. That's quite 
+                        <p class="text-[#363958] text-base">They are here to help you. That's quite
                             literally what we pay them for.</p>
                     </div>
                 </div>
             </div>
-            <div class="w-1/2">
-                <div><img class="w-full" src="./penguin-fashion-resources/images/shopping.png" alt=""></div>
+            <div class="lg:w-1/2 w-full mt-20">
+                <div><img class="lg:w-full w-full" src="./penguin-fashion-resources/images/shopping.png" alt=""></div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="mx-auto bg-lime-100">
+        <div class="mt-10 mx-auto max-w-screen-xl ">
+            <div class="lg:flex items-center gap-4 justify-center">
+                <div><img src="./penguin-fashion-resources/icons/Frame.svg" alt=""></div>
+                <div class="mon text-2xl"><span class="text-lime-600">Penguin</span> Fashion</div>
+            </div>
+        </div>
     </footer>
 </body>
 
